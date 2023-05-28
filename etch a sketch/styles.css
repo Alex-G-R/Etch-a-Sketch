@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    font-weight: 500;
+}
+h1 {
+    font-weight: 800;
+}
+.container {
+    display: flex;
+}
+.box{
+    width: 100%;
+    text-align: center;
+}
+
+#box1 {
+    background-color: lightblue;
+    height: 80px;
+}
+
+#box2a {
+    background-color:lightblue;
+    height: 750px;
+    width: 200px;
+}
+#box2 {
+    background-color: green;
+    height: 750px;
+    display: flex;
+    border: 2px solid black;
+}
+#box2b {
+    background-color: lightblue;
+    height: 750px;
+    width: 200px;
+}
+
+#box3 {
+    background-color: lightblue;
+    height: 80px;
+}
+
+.choice {
+    margin-top: 50px;
+}
+
+.EtchBox {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+
+.boxE {
+    flex: 1;
+}
+
+#btn {
+    margin-top: 40px;
+}
+
